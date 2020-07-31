@@ -1,7 +1,5 @@
 #!/bin/bash
 
-nc -N jh2i.com 50012
-
-while read s; 
-  do echo "$s" | ;
+while IFS= read -r line; do
+  echo "$line"
 done < numbers.txt
